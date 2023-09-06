@@ -14,31 +14,55 @@
 }
 .logo{
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    height: 6rem;
+    width: 6rem;
+    margin-top: 45px;
+}
+.logo:hover{
+    cursor: none;
 }
 
 .navMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    position: relative;
+
+}
+.navMenuListItem::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88));
+    transition: all ease 0.5s;
+    
 }
 
-.navMenuListItem:hover{
-    color: yellow;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid yellow;
+.navMenuListItem:hover::after{
+    
+    width: 100%;
+   
 }
 .navContact{
     border: none;
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
     border-radius: 2rem;
     cursor: pointer;
+    background: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88));
+    background-size: cover;
+    background-position: center;
+    
 
+}
+.navContact:hover{
+    color: black;
 }
 .navbarImg{
     object-fit: cover;
@@ -48,9 +72,15 @@
 }
 
 .active{
-    color: yellow;
+    /* color: yellow; */
     padding-bottom: 0.5rem; 
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid rgb(106, 106, 250) ;
+    background: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88));
+    background-size: cover;
+    background-position: center;
+    background-clip:text ;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .mobMenu{
@@ -90,5 +120,13 @@
     }
     .navContact{
         display: none;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .navContact{
+        font-size: 1rem;
     }
 }

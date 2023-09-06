@@ -41,7 +41,7 @@
 }
 
 .skillBarImg{
-    object-fit: cover;
+    /* object-fit: cover; */
     height: 3rem;
     width: 3rem;
     margin-right: 2rem;
@@ -50,4 +50,17 @@
 .skillBarText>p{
     font-size: 1rem;
     font-weight: 200;
+}
+
+@media screen and (max-width:414px){
+    .skillBar{
+        font-size: small;
+        padding: 1.2rem 3rem;
+    }
+}
+@media screen and (max-width:280px){
+    .skillBar{
+        font-size: xx-small;
+        padding: 0.5rem 1rem;
+    }
 }

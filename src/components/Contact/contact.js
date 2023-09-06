@@ -1,9 +1,9 @@
 import React, {useRef} from "react";
 import './contact.css';
-import facebookIcon from '../../assets/facebook-icon.png'
+import GitIcon from '../../assets/git.png'
 import InstaIcon from '../../assets/instagram.png'
-import LinkedinIcon from '../../assets/youtube.png'
-import TwitterIcon from '../../assets/twitter.png'
+import LinkedinIcon from '../../assets/linkedin.png'
+import EmailIcon from '../../assets/email.png'
 import emailjs from '@emailjs/browser';
 
 const Contact = () =>{
@@ -41,9 +41,9 @@ const Contact = () =>{
                     <button type="submit" value="Send" className="submitBtn">Submit</button>
                     <div className="links">
                         <img src={InstaIcon} alt="LinkImg" className="link" />
-                        <img src={facebookIcon} alt="LinkImg" className="link" />
+                        <img src={GitIcon} alt="LinkImg" className="link" />
                         <img src={LinkedinIcon} alt="LinkImg" className="link" />
-                        <img src={TwitterIcon} alt="LinkImg" className="link" />
+                        <img src={EmailIcon} alt="LinkImg" className="link" />
                     </div>
                 </form>
             </div>

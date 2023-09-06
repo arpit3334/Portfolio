@@ -9,9 +9,9 @@ const Intro=()=>{
         <section className="intro">
             <div className="introContent">
                 <span className="hello">Hello </span>
-                <span className="introText">I'm <span className="nameText">Arpit </span> <br />MERN & Blockchain Developer</span>
+                <span className="introText">I'm <span className="nameText">Arpit </span> <br /> <span className='innerText'>MERN & Blockchain Developer</span> </span>
                 <p className="introPara">Skilled and passionate about my work <br/> & learning with web 3.0</p>
-                <Link><button className="btn"><img src={btnImg} alt="Hire me" className='btmImg' />Hire me</button></Link>
+                <Link><button className="btn"><img src={btnImg} alt="Hire me" className='btnImg' /> Hire me</button></Link>
             </div>
             <img src={bg} alt="profile" className="bg" />
         </section>
