@@ -20,6 +20,7 @@ const Works =() =>{
             <img src={Portfolio5} alt="Img5" className="worksImg" />
             <img src={Portfolio6} alt="Img6" className="worksImg" />
            </div>
+           
            <button className="worksBtn">See More</button>
         </section>
     )

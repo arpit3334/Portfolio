@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    
 }
 
 .worksTitle{
@@ -28,13 +29,18 @@
     width: 100vw;
     max-width: 65rem;
     flex-wrap: wrap;
+      
 }
-
+.worksImg:hover{
+    transform: rotateY(180deg);
+}
 .worksImg{
     object-fit: cover;
     height: 20rem;
     margin: 0.5rem;
 }
+
+
 .worksBtn{
     margin: 3rem auto;
     padding: 0.5rem 2.5rem;

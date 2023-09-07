@@ -66,9 +66,15 @@
         padding: 1.2rem 3rem;
     }
 }
+@media screen and (max-width:368px){
+    .skillBar{
+        font-size: xx-small;
+        padding: 0.5rem 0.5rem;
+    }
+}
 @media screen and (max-width:280px){
     .skillBar{
         font-size: xx-small;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.5rem;
     }
 }

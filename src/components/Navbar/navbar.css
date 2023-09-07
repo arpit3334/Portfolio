@@ -41,17 +41,14 @@
 }
 
 .navMenuListItem:hover::after{
-    /* border-color: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88)); */
     box-shadow: 0 30px 40px rgb(207, 95, 207);
     width: 100%;
    
 }
 .navMenuListItem:hover{
-    /* border-color: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88)); */
-    box-shadow: 0 30px 40px rgb(223, 124, 223);
-    height: 8px;
-    
    
+    box-shadow: 0 30px 40px rgb(223, 124, 223);
+    
 }
 .navContact{
     border: none;
