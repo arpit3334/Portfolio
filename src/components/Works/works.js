@@ -11,7 +11,7 @@ const Works =() =>{
     return(
         <section className="works">
            <h2 className="worksTitle">My Portfolio</h2>
-           <span className="worksDes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis aliquid deserunt saepe enim magnam inventore earum eos commodi atque, consequuntur harum ipsa dolorum dolore temporibus, nesciunt assumenda fugit dolores magni?</span>
+           <span className="worksDes">Chating interface, Decentralized social media app, Portfolio website, web designing, and many more in upcoming</span>
            <div className="worksImgs">
             <img src={Portfolio1} alt="Img1" className="worksImg" />
             <img src={Portfolio2} alt="Img2" className="worksImg" />

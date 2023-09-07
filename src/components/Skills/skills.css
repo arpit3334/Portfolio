@@ -38,6 +38,14 @@
     padding: 1.5rem 4rem;
     border-radius: 0.5rem;
     background: rgb(50 ,50 ,50);
+    transition: all ease 0.5s;
+}
+.skillBar:hover{
+    background: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88));
+    background-size: cover;
+    background-position: center;
+    color: rgb(56, 55, 55);
+    cursor: pointer;
 }
 
 .skillBarImg{

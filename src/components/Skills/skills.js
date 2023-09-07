@@ -7,7 +7,7 @@ const Skills=()=>{
     return(
         <section className='skills'>
             <span className="skillTitle">What I do</span>
-            <span className="skillDescription">Lorem ipsum dolor sit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, error!</span>
+            <span className="skillDescription">Gaining specialition in Blockchain Development, creating secure decentralized applications and smart contracts. Additionally, I excel in Full Stack Web Development, crafting innovative, user-friendly web solutions encompassing both front-end and back-end development. Furthermore, I'm dedicated to Cybersecurity, implementing robust security measures, conducting vulnerability assessments, and deploying proactive strategies to safeguard digital assets. My mission is to drive innovation while ensuring security and usability in the ever-evolving digital landscape</span>
             <div className="skillBars">
                     <div className="skillBar">
                         <img src={MERN} alt="MERN Developer" className="skillBarImg" />

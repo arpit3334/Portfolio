@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, { useRef } from "react";
 import './contact.css';
 import GitIcon from '../../assets/git.png'
 import InstaIcon from '../../assets/instagram.png'
@@ -11,34 +11,35 @@ const Contact = () =>{
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_13gby9z', 'service_13gby9z', form.current, 'QDfdlOGNj9ohBZkti9MsC')
-          .then((result) => {
-              console.log(result.text);
-          }, (error) => {
+        emailjs.sendForm('service_13gby9z', 'template_oprs3nl', form.current, '6VZRuh5c6syeq8jx6')
+            .then((result) => {
+               console.log(result.text);
+            }, (error) => {
               console.log(error.text);
-          });
-      };
-    return(
+            });
+        };
+        
+        return(
         <section className="contactPage">
             <div id="activity">
                 <h1 className="contactPageTitle">Other Activities</h1>
-                <p className="activityDes">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat consequatur animi, architectoiditate et id laboriosam ab tempore sit quidem sapiente saepe molestias.</p>
+                <p className="activityDes">IEEE Computer society treasurer , Developer in college club, research work and more in processing</p>
                 <button className="btns">
                     <button className="bbtn">Treasurer</button>
                     <button className="bbtn">Developer</button>
                     <button className="bbtn">Research paper</button>
-                    <button className="bbtn">Get Resume</button>
+                   <a href="https://drive.google.com/file/d/1yY4fhTyL8SRRNb3NR7NRUv83lbbNdVNG/view?usp=drivesdk"><button className="bbtn"  >Get Resume</button></a>
                 </button>
             </div>
             <br /><br />
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Me</h1>
                 <span className="activityDes">Please fill this form if having any query or opportunity.</span>
-                <form action="" className="contactForm" ref={form} onSubmit={sendEmail}>
+                <form  className="contactForm" ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder="Your name" name="your_name" />
                     <input type="email" className="email" placeholder="Your Email" name="your_email"/>
                     <textarea className="msg" name="message"  rows="5" placeholder="Your message" ></textarea>
-                    <button type="submit" value="Send" className="submitBtn">Submit</button>
+                    <button type="reset" value="Send" className="submitBtn" >Submit</button>
                     <div className="links">
                         <img src={InstaIcon} alt="LinkImg" className="link" />
                         <img src={GitIcon} alt="LinkImg" className="link" />
