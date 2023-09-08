@@ -13,3 +13,10 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(207, 95, 207),rgb(106, 106, 250),rgb(247, 137, 156),rgb(235, 159, 88));
+    border-radius:20px;
+}
