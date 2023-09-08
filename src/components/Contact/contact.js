@@ -41,10 +41,10 @@ const Contact = () =>{
                     <textarea className="msg" name="message"  rows="5" placeholder="Your message" ></textarea>
                     <button type="reset" value="Send" className="submitBtn" >Submit</button>
                     <div className="links">
-                        <img src={InstaIcon} alt="LinkImg" className="link" />
-                        <img src={GitIcon} alt="LinkImg" className="link" />
-                        <img src={LinkedinIcon} alt="LinkImg" className="link" />
-                        <img src={EmailIcon} alt="LinkImg" className="link" />
+                       <a href="https://www.instagram.com/gupta_arpit_/"> <img src={InstaIcon} alt="LinkImg" className="link" /></a>
+                        <a href="https://github.com/arpit3334"><img src={GitIcon} alt="LinkImg" className="link" /></a>
+                        <a href="https://www.linkedin.com/in/arpitgupta210566/"><img src={LinkedinIcon} alt="LinkImg" className="link" /></a>
+                        <a href="mailto: guptaarpit3334@gmail.com"><img src={EmailIcon} alt="LinkImg" className="link" /></a>
                     </div>
                 </form>
             </div>
