@@ -28,7 +28,7 @@ const Contact = () =>{
                     <button className="bbtn">Treasurer</button>
                     <button className="bbtn">Developer</button>
                     <button className="bbtn">Research paper</button>
-                   <a href="https://drive.google.com/file/d/1yY4fhTyL8SRRNb3NR7NRUv83lbbNdVNG/view?usp=drivesdk"><button className="bbtn"  >Get Resume</button></a>
+                   <a href="https://drive.google.com/file/d/1bPeZtHTwL95qiQ5a-0COJN6EbZNQMS-6/view?usp=drive_link"><button className="bbtn"  >Get Resume</button></a>
                 </button>
             </div>
             <br /><br />
