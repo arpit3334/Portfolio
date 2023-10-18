@@ -12,7 +12,7 @@ const Navbar =() => {
             <a href=".intro"> <img src={logo} alt="Logo" className='logo' /></a>
             <div className="navmenu">
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration ={500}className="navMenuListItem">Home</Link>
-                <Link activeClass='active' to='activity' spy={true} smooth={true} offset={-70} className="navMenuListItem">Activies</Link>
+                <Link activeClass='active' to='activity' spy={true} smooth={true} offset={-70} className="navMenuListItem">Activities</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-70} className="navMenuListItem">Skills</Link>
                 <Link activeClass='active' to='works' spy={true} smooth={true} offset={-70} className="navMenuListItem">Portfolio</Link>
             </div>
